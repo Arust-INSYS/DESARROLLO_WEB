@@ -1,0 +1,16 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let card of cards">
+      <div class="card h-100">
+        
+        <div class="card-body ">
+            <h4>{{card.nombre}}</h4>
+            <p > {{card.description}}</p>
+            <ul class="list_prov">
+              <li>{{card.direccion}}</li>
+              <li>{{card.telefono}}</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+ 
